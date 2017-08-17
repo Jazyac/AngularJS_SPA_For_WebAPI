@@ -1,0 +1,49 @@
+﻿
+
+<div ng-controller="Controller" ng-app="ItemsApp">
+
+
+
+
+<div class="container">
+  <h2>Items</h2>
+   
+  <table class="table">
+  
+    <thead>
+      <tr>
+	  
+        <th>Key</th>
+        <th>Name</th>
+        <th>IsComplete</th>
+
+        <th>Edit</th>
+        <th>Delete</th>
+
+		</tr>
+		
+    </thead>
+	
+    <tbody>
+      <tr ng-repeat="todoItem in todoItems.data">
+        <td>{{todoItem.key}}</td>
+        <td>{{todoItem.name}}</td>
+        <td>{{todoItem.isComplete}}</td>
+
+        <td><button ng-click="editMe(todoItem)">Edit</button></td>
+        <td><button ng-click="deleteMe(todoItem)">Delete</button></td>
+      
+	   
+      </tr>
+    </tbody>
+  </table>
+  
+    <button ng-click="add()">Add</button>
+</div>
+
+
+
+</div>
+
+
+

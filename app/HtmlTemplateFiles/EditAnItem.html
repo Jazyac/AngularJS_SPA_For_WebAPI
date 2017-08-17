@@ -1,0 +1,30 @@
+﻿<div ng-app="ItemsApp" ng-controller="Controller">
+ <h2>Edit</h2>
+    <table class="table">
+        <tr>
+            <td ><b>Key:</b></td>
+            <td ><span >
+                    {{EditKey}}
+                </span></td>
+
+        </tr>
+		        <tr>
+
+            <td ><b>Name: </b></td>
+            <td > <span>
+                    <input type="text" ng-model="EditName" >  <br>
+                </span></td>
+        </tr>        <tr>
+		
+     
+
+            <td ><b>IsComplete:</b></td>
+			       <td ><span>
+                    <input type="text" ng-model="EditIsComplete" >  <br>
+                </span></td>
+        </tr>
+       
+    </table>
+    <button ng-click="editSubmit()">Edit</button>
+    <button ng-click="cancel()">Cancel</button>
+</div>

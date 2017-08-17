@@ -1,0 +1,30 @@
+﻿<div ng-app="ItemsApp" ng-controller="Controller">
+ <h2>Add</h2>
+    <table class="table">
+	
+	 <tr >
+
+            <td ><b>Name: </b></td>
+			
+            <td ><span>
+                    <input type="text" ng-model="AddName" >  <br>
+                </span></td>
+        </tr>
+        <tr>
+            <td>
+                <b>IsComplete:</b>
+            </td>
+            <td>
+                <span>
+                    <input type="text" ng-model="AddIsComplete" >  <br>
+                </span>
+            </td>
+        </tr>
+	
+	
+	
+	
+    </table>
+    <button ng-click="addSubmit()">Add</button>
+    <button ng-click="cancel()">Cancel</button>
+</div>

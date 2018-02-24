@@ -18,3 +18,6 @@ http://www.dotnetcurry.com/aspnet/1054/single-page-spa-crud-application-aspnet-m
 
 https://code.msdn.microsoft.com/AngularJS-CRUD-Operations-abcbe237
 
+
+<h1>Note: The api consumed by this app was deployed to a free remote server,which has now expired. Hence the app has limited functionality.</h1>
+   
